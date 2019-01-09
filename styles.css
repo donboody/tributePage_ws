@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    background-color: lightgray;
+    color: black;
+    padding: 14px 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: gray;
+}
+
+#img-div {}
+
+.smaller-image {
+    width: 400px;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 85%;
+}
+
+.d1 {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.d2 {
+    margin-left: 410px;
+    background: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+header {}
+
+
+#tribute-info {
+    text-align: center;
+    font-size: 110%;
+}
+
+#timeline {
+    margin-left: 50px;
+    margin-right: 50px;
+}
