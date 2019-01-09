@@ -23,23 +23,25 @@ a:active {
     background-color: gray;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .hide-on-small {
         position: absolute;
         left: -999em;
     }
 }
 
-@media (max-width: 500px) {
-    #image {
-        margin: auto;
-        max-width: 100%;
-        height: auto;
-    }
+
+
+#img-div {
+    max-width: 400px;
+    margin: auto;
 }
 
-.smaller-image {
-    width: 400px;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    align-self: center;
 }
 
 #img-caption {
@@ -47,7 +49,7 @@ a:active {
     font-size: 85%;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .d1 {
         background: white;
         display: flex;
@@ -56,7 +58,7 @@ a:active {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .d1 {
         background: white;
         display: flex;
@@ -65,7 +67,7 @@ a:active {
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .d2 {
         margin-left: 410px;
         background: lightgray;
@@ -74,7 +76,7 @@ a:active {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .d2 {
         background: lightgray;
         display: flex;
@@ -82,7 +84,7 @@ a:active {
     }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .container {
         height: 100%;
         display: flex;
@@ -96,10 +98,6 @@ a:active {
         flex-direction: column;
     }
 }
-
-
-header {}
-
 
 #tribute-info {
     text-align: center;
