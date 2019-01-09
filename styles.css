@@ -23,7 +23,20 @@ a:active {
     background-color: gray;
 }
 
-#img-div {}
+@media (max-width: 500px) {
+    .hide-on-small {
+        position: absolute;
+        left: -999em;
+    }
+}
+
+@media (max-width: 500px) {
+    #image {
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
 
 .smaller-image {
     width: 400px;
@@ -34,24 +47,56 @@ a:active {
     font-size: 85%;
 }
 
-.d1 {
-    background: white;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
+@media (min-width: 500px) {
+    .d1 {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+    }
 }
 
-.d2 {
-    margin-left: 410px;
-    background: lightgray;
-    display: flex;
-    flex-direction: column;
+@media (max-width: 500px) {
+    .d1 {
+        background: white;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.container {
-    height: 100%;
-    display: flex;
+
+@media (min-width: 500px) {
+    .d2 {
+        margin-left: 410px;
+        background: lightgray;
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+@media (max-width: 500px) {
+    .d2 {
+        background: lightgray;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 500px) {
+    .container {
+        height: 100%;
+        display: flex;
+    }
+}
+
+@media (max-wdith: 500px) {
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 
 header {}
 
